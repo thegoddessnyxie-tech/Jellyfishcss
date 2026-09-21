@@ -237,13 +237,6 @@ color: #3E1093 !important;
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important;  } */
- 
-.panel {
-background: #611AE6 !important;
-color: #3E1093 !important;
-border: none !important;
-border-radius: 0px !important;
-box-shadow: none !important;  }
    
 /*IMPRESSION / ALL PROGRESS Bars
 Unless you color the progress bars below, all progress bars will default
@@ -255,14 +248,14 @@ background: #435CEA !important;
 border-radius: 0px !important; }
 
 /* ENERGY */ .progress-bar-warning { 
-background: #HEX !important;
-color: #HEX !important;}
+background: #435CEA !important;
+color: #152EBC !important;}
 /* HUNGER */ .progress-bar-danger { 
-background: #HEX !important;
-color: #HEX !important;}
+background: #435CEA !important;
+color: #152EBC !important;}
 /* EXP + ACHIEVEMENTS */ .progress-bar-success { 
-background: #HEX !important;
-color: #HEX !important;}
+background: #435CEA !important;
+color: #152EBC !important;}
 
 /* This is the text that reads Energy: X% */
 .progress div {
@@ -271,7 +264,7 @@ color: #030617 !important; }
 /* This is the background of the progress bars. */
 .progress {
 background:  #95A4F3;
-color: #HEX !important;
+color: #435CEA !important;
 border-radius: 0px !important;  }
 
 /* Icon Replacement - Warning
