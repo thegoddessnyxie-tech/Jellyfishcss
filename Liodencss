@@ -118,19 +118,19 @@ background: none; }
 /* TOPBAR, NAVBAR, & BREADCRUMB */
  
 .topbar {
-background: #HEX !important;
-color: #HEX !important;
+background: #EFE8FC !important;
+color: #1E0847 !important;
 border: none !important;
 border-radius: 0px !important;  }
  
 .navbar {
 background: #EFE8FC !important;
-color: #HEX !important;
+color: #1E0847 !important;
 border: none !important;
 border-radius: 0px !important; }
 
 .navbar li a:hover {
-background: #HEX !important;
+background: #EFE8FC !important;
 color: #e4a574 !important; }
 
 /* This is mobile collapable navbar color changes.
@@ -141,7 +141,7 @@ navbar-collapse is just there to hide the white line
 
 .navbar-toggle {
 border: none !important;
-background: #HEX !important;
+background: #1E0847 !important;
 }
 
 .navbar-collapse {
@@ -153,12 +153,12 @@ border-top: none !important;
 /* Bookmark Bar - aka breadcrumb, this is where your link path is shown */
 
 .breadcrumb {
-background: #HEX !important;
-color: #HEX !important;
+background: #EFE8FC !important;
+color: ##0A0317 !important;
 border: none !important;
 border-radius: 0px !important;} 
 .breadcrumb .active {
-color: #HEX; }
+color: ##2D0C6A; }
  
 /* ALERTS 
 .alert is all alerts, only set this one if you want all alerts to be the same color
@@ -169,20 +169,20 @@ and danger the same color for best results
 (quick notice maybe? more research)*/
  
 .alert {
-background: #HEX !important;
-color: #HEX !important;
+background: #6C80EF !important;
+color: #102493 !important;
 border: none !important;
 border-radius: 0px !important;
 text-align: center !important;  }
 .alert-warning {
-background: #HEX !important;
-color: #HEX !important;}
+background: #F9E8FC !important;
+color: #380740 !important;}
 .alert-danger {
-background: #HEX !important;
-color: #HEX !important;}
+background: #F9E8FC !important;
+color: #380740 !important;}
 .alert-success {
-background: #HEX !important;
-color: #HEX !important;}
+background: #C71AE6 !important;
+color: #102493 !important;}
  
 
 /*COMMENT BOX 
@@ -197,10 +197,10 @@ If you want the flippy floppy colors, where one is a little darker than the othe
 */
 
 div#commentBox {
-background: #HEX !important;
+background: #EFE8FC !important;
 border: none !important;
 border-radius: 0px !important;
-color: #HEX !important;}
+color: #0A0317 !important;}
 	
 .comment {     
 background: #HEX !important;
@@ -213,10 +213,10 @@ text-align: center !important;}
 color: #HEX !important; }
 
 input.bad {
-background: #HEX !important;
-color: #HEX !important;}
+background: #A315BC !important;
+color: #140317 !important;}
 input.bad a {
-color: #HEX !important; }
+color: #C71AE6 !important; }
 
 table#player.table hr {
 display: none !important; }
