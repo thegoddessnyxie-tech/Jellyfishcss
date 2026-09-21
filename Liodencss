@@ -231,16 +231,16 @@ please note that the css provided by the site does NOT work on replaced images, 
 
 if you want a texture for your panels, using the cardboard texture as an example, the code will look like this:
 .panel {
-background-color: #1000f2;
-background-image: url("https://www.transparenttextures.com/patterns/cardboard.png");
-color: #HEX !important;
+background-color: #611AE6;
+background-image: url("https://www.transparenttextures.com/patterns/cartographer.png");
+color: #3E1093 !important;
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important;  } */
  
 .panel {
-background: #HEX !important;
-color: #HEX !important;
+background: #611AE6 !important;
+color: #3E1093 !important;
 border: none !important;
 border-radius: 0px !important;
 box-shadow: none !important;  }
@@ -251,7 +251,7 @@ to the colors you put here.
 Bars will also inherit the border-radius value from this one, so it's
 not needed to specify border-radius for all bars. */
 .progress-bar {
-background: #HEX !important; 
+background: #435CEA !important; 
 border-radius: 0px !important; }
 
 /* ENERGY */ .progress-bar-warning { 
@@ -266,11 +266,11 @@ color: #HEX !important;}
 
 /* This is the text that reads Energy: X% */
 .progress div {
-color: #HEX !important; }
+color: #030617 !important; }
 
 /* This is the background of the progress bars. */
 .progress {
-background:  #HEX;
+background:  #95A4F3;
 color: #HEX !important;
 border-radius: 0px !important;  }
 
@@ -285,7 +285,7 @@ width: 24px !important; }
 
 button#label_currentChannel {
 border: none !important;
-background: #HEX !important; }
+background: #E595F3 !important; }
 
 div#chatMessageContainer {
 border: none !important; }
@@ -293,22 +293,22 @@ border: none !important; }
 /* PINNED MESSAGES - This will change the background color of where staff pin news */
 
 .s-chat-message__pinned {
-background-color: #HEX !important;
-color: #HEX !important;
+background-color: #BFC7F8 !important;
+color: #102493 !important;
 border: none !important; }
 
 /* Odd will show at the TOP of chat, even will show every other message under it. If you want both colors the same, just copy and
 paste the code for each option*/ 
 
 .s-chat-message:nth-child(even) {
-background: #HEX !important;
+background: #5B0C6A !important;
 border: none !important; }
 .s-chat-message:nth-child(odd) {
-background: #HEX !important;
+background: #5B0C6A !important;
 border: none !important; }
 
 .s-chat-message_timestamp {
-color: #HEX !important; }
+color: #380740 !important; }
 
 /* Channel Selector */ 
 .s-chat-sidebar #fraChatChannelMenu,
@@ -1039,3 +1039,9 @@ z-index: 100; }
             right: 22%;
         }
     }
+
+/* Purple Paw Print - https://www.cursors-4u.com/cursor/nat32 */
+* {
+  cursor: url('https://cdn.cursors-4u.net/previews/purple-paw-print-d19c5382-32.webp') 32 32, auto !important;
+}
+/* End www.Cursors-4U.com Code */
