@@ -79,7 +79,7 @@ H2 is not used anywhere in the default look unless you want to use it.
 H3 is used in the side bar (above the energy panel, achievement panel, etc. */
  
 h1 {
-color: #HEX !important;
+color: ##B695F3 !important;
 font-size: 64px;
 text-align: center !important;
 font-family: 'Ruslan Display', cursive;}
@@ -89,7 +89,7 @@ color: #HEX !important;
 font-size: 24px;}
 
 h3 {
-color: #HEX !important;
+color: ##B695F3 !important;
 font-size: 18px;}
  
 /* LINKS
@@ -98,17 +98,17 @@ Plan accordingly. */
  
 a:link,
 a:visited {
-color: #HEX !important;
+color: #EFE8FC !important;
 background: none !important; }
    
 a:hover {
-color: #HEX !important; }
+color: #0A0317 !important; }
  
 /* MAIN PANEL - The panel in front of your background image. Usually a solid color on Lioden.
 You can make it a solid color by either using a HEX code, or by setting the final number in RGBA to 1.0 */
    
 .container.main {
-background: rgba(55, 58, 39, 0.0);
+background: rgba(62 16 147, 0.0);
 border: none;
 box-shadow: none;
 border-radius: 5px; }
@@ -124,7 +124,7 @@ border: none !important;
 border-radius: 0px !important;  }
  
 .navbar {
-background: #HEX !important;
+background: #EFE8FC !important;
 color: #HEX !important;
 border: none !important;
 border-radius: 0px !important; }
